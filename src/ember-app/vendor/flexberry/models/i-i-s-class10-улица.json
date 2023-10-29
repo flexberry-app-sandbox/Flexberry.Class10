@@ -1,0 +1,106 @@
+﻿{
+  "name": "IISClass10Улица",
+  "modelName": "i-i-s-class10-улица",
+  "className": "Улица",
+  "nameSpace": "IIS.Class10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имяУлицы",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "город",
+      "relatedTo": "i-i-s-class10-город",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "УлицаE",
+      "modelName": "i-i-s-class10-улица",
+      "attrs": [
+        {
+          "name": "имяУлицы",
+          "caption": "Имя улицы",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Город",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Город",
+          "name": "город",
+          "relatedTo": "i-i-s-class10-город",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "УлицаL",
+      "modelName": "i-i-s-class10-улица",
+      "attrs": [
+        {
+          "name": "имяУлицы",
+          "caption": "Имя улицы",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Город",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Наименование",
+          "name": "город",
+          "relatedTo": "i-i-s-class10-город",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

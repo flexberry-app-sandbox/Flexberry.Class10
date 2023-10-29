@@ -1,0 +1,1 @@
+docker-compose -p class10-java up -d

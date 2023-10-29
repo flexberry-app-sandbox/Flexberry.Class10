@@ -1,0 +1,43 @@
+﻿{
+  "applicationCaption": "Class10",
+  "applicationTitle": "Class10",
+  "items": [
+    {
+      "link": null,
+      "menuName": "class10",
+      "caption": "Class10",
+      "title": "Class10",
+      "children": [
+        {
+          "link": "i-i-s-class10-город-l",
+          "menuName": null,
+          "caption": "Город",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-class10-улица-l",
+          "menuName": null,
+          "caption": "Улица",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-class10-комната-l",
+          "menuName": null,
+          "caption": "Комната",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-class10-дом-l",
+          "menuName": null,
+          "caption": "Дом",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

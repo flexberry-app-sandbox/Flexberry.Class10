@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Город",
+      "projection": "ГородL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Улица",
+  "name": "IISClass10УлицаE",
+  "className": "УлицаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-class10-улица",
+      "modelProjection": "УлицаE"
+    }
+  ]
+}

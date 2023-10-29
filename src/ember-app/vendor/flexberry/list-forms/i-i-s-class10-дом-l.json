@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-class10-дом-e",
+  "editForm": "i-i-s-class10-дом-e",
+  "external": false,
+  "caption": "Дом",
+  "name": "IISClass10ДомL",
+  "className": "ДомL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-class10-дом",
+      "modelProjection": "ДомL"
+    }
+  ]
+}

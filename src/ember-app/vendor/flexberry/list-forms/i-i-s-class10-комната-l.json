@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-class10-комната-e",
+  "editForm": "i-i-s-class10-комната-e",
+  "external": false,
+  "caption": "Комната",
+  "name": "IISClass10КомнатаL",
+  "className": "КомнатаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-class10-комната",
+      "modelProjection": "КомнатаL"
+    }
+  ]
+}

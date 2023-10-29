@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Дом",
+      "projection": "ДомL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Комната",
+  "name": "IISClass10КомнатаE",
+  "className": "КомнатаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-class10-комната",
+      "modelProjection": "КомнатаE"
+    }
+  ]
+}

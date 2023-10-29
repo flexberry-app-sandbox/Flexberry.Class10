@@ -1,0 +1,106 @@
+﻿{
+  "name": "IISClass10Дом",
+  "modelName": "i-i-s-class10-дом",
+  "className": "Дом",
+  "nameSpace": "IIS.Class10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерДома",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "улица",
+      "relatedTo": "i-i-s-class10-улица",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ДомE",
+      "modelName": "i-i-s-class10-дом",
+      "attrs": [
+        {
+          "name": "номерДома",
+          "caption": "Номер дома",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ИмяУлицы",
+          "lookupValueField": "имяУлицы",
+          "relationName": "Улица",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имяУлицы",
+              "caption": "Имя улицы",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Улица",
+          "name": "улица",
+          "relatedTo": "i-i-s-class10-улица",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ДомL",
+      "modelName": "i-i-s-class10-дом",
+      "attrs": [
+        {
+          "name": "номерДома",
+          "caption": "Номер дома",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Улица",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имяУлицы",
+              "caption": "Имя улицы",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Имя улицы",
+          "name": "улица",
+          "relatedTo": "i-i-s-class10-улица",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

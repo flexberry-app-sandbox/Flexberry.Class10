@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Class10.model.Gorod</class>
+        <class>Class10.model.Ulica</class>
+        <class>Class10.model.Komnata</class>
+        <class>Class10.model.Dom</class>
+        <class>Class10.model.FlexberryAdvLimit</class>
+        <class>Class10.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Class10.model.NewPlatformFlexberryServicesLock</class>
+        <class>Class10.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>
